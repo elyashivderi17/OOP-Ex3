@@ -14,6 +14,8 @@ public class Line implements Geom_element {
 		this.end=end;
 	}
 
+	
+	
 	public Line(double xstart,double ystart,double zstart,double xend,double yend,double zend) {//constractor
 		this.start=new Point3D(xstart,ystart,zstart);
 		this.end=new Point3D(xend,yend,zend);
